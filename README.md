@@ -1,2 +1,2 @@
-# odin-rock-paper-sissors
+# odin-rock-paper-scissors
 Project rock paper scissors
