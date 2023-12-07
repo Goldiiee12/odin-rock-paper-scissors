@@ -79,5 +79,11 @@ function game(){
     }
 }
 
-game()
+function startGame() {
+    do {
+        game();
+    } while (confirm("Do you want to play again?"));
+}
+
+startGame();
 
