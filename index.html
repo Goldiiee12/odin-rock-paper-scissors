@@ -9,7 +9,7 @@
 </head>
 <body>
 
-        <h1>Rock- Paper - Scissors</h1>
+        <h1>Rock - Paper - Scissors</h1>
 
         <div class="choices">
             <button oneclick ="playGame('rock')">👊</button>
@@ -17,11 +17,19 @@
             <button oneclick ="playGame('Scissors')">✌️</button>
         </div>
 
-        <div id="playerDisplay">PLAYER</div>
-        <div id="playerDisplay">COMPUTER</div>
-        <div id="playerDisplay"></div>
+        <div id="playerDisplay">PLAYER:</div>
+        <div id="computerDisplay">COMPUTER:</div>
+        <div id="resultDisplay"></div>
 
-        <script src=""></script>
+        <div class="scoreDisplay">Player Score:
+            <span id="playerScoreDisplay">0</span>
+        </div>
+
+        <div class="scoreDisplay">Computer Score:
+            <span id="ComputerScoreDisplay">0</span>
+        </div>
+
+        <script src="index.js"></script>
 
     
 </body>
