@@ -2,8 +2,10 @@
 
 Project rock paper scissors
 
-Working button with emojis []
+Working button with emojis [x]
 
-Enable player and computer feedback []
+Enable player and computer feedback [x]
 
-choose a winner []
+Choose a winner [x]
+
+Restart option [x]
