@@ -9,12 +9,12 @@
 </head>
 <body>
 
-        <h1>Rock - Paper - Scissors</h1>
+        <h1>ROCK - PAPER - SCISSORS</h1>
 
         <div class="choices">
-            <button oneclick ="playGame('rock')">👊</button>
-            <button oneclick ="playGame('paper')">✋</button>
-            <button oneclick ="playGame('Scissors')">✌️</button>
+            <button onclick ="playGame('Rock')">👊</button>
+            <button onclick ="playGame('Paper')">✋</button>
+            <button onclick ="playGame('Scissors')">✌️</button>
         </div>
 
         <div id="playerDisplay">PLAYER:</div>
@@ -26,8 +26,12 @@
         </div>
 
         <div class="scoreDisplay">Computer Score:
-            <span id="ComputerScoreDisplay">0</span>
+            <span id="computerScoreDisplay">0</span>
         </div>
+
+        <div id="gameOverDisplay"></div>
+
+        <button id="replayButton" onclick="replayGame()" style="display: none;">Try Again</button>
 
         <script src="index.js"></script>
 
